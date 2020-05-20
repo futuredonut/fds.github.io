@@ -1,0 +1,95 @@
+body {
+    background-color: #5E017F;
+    margin: 0px;
+}
+
+
+**pages
+
+#console {
+    background-color: #3E38F2;
+    float: left;
+    margin: 0px;
+    border: black;
+    border-right: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 98%;
+}
+
+
+#startpage {
+    margin:0px;
+    padding-top: 1%;
+    padding-bottom: 99%;
+    padding-left: 47%;
+    padding-right: 45%;
+    float: right;
+    display: block;
+    text-align: center;
+}
+
+#cmdpage {
+    background-color: #5E017F;
+    margin:0px;
+    padding-top: 1%;
+    padding-bottom: 99%;
+    padding-left: 47%;
+    padding-right: 45%;
+    float: right;
+    display: none;
+    text-align: center;
+}
+
+#tagpage {
+    background-color: #5E017F;
+    margin:0px;
+    padding-top: 1%;
+    padding-bottom: 99%;
+    padding-left: 47%;
+    padding-right: 45%;
+    float: right;
+    display: block;
+    text-align: center;
+}
+
+**divs
+
+
+
+
+**inputs
+
+.cons {
+    height: 28px;
+    width: 28px;
+    border:1px;
+    border-radius: 5px;
+}
+
+#cons {
+    height: 35px;
+    width: 35px;
+    font-size: large;
+    border:1px;
+    border-radius: 5px;
+}
+
+#tags {
+    margin:0px;
+    height: 35px;
+    font-size: large;
+    border:1px;
+    border-radius: 5px;
+}
+
+#cmdi {
+    border-radius: 10px;
+    margin: 0px;
+    width: 200px;
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 40px;
+    font-size: large;
+}
