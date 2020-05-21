@@ -13,7 +13,7 @@
             <input type="button" id="cons" class="cons" value=" ">
             <input type="button" id="cons" class="cons" value=" ">
             <input type="button" id="cons" class="cons" value=" ">
-            <input type="button" id="cons" class="cons" value=" ">
+            <input type="button" id="cons" class="cons" value="🌞">
             <input type="button" id="cons" class="cons" value=" ">
             <input type="button" id="cons" class="cons" value="🏠" onclick="tpsp()">
             <input type="button" id="cons" class="cons" value="🏷️" onclick="tptp()">
@@ -25,31 +25,53 @@
 
 
         <div class="pages" id="startpage">
-            <h1 style=color:orange>Welcome back</h1>
+            <h1 style=color:orange>Welcome back</h1><br><hr style="border: none; border-top: 1px dashed white;"><br>
 
 
         </div>
 
 
-        <div id="cmdpage">
-            
-            <div id="cmdc">
-            </div>
+        <div class="pages" id="cmdpage">
 
             <div id="cmdm">
                 <br>
-                    <input id="cmdi" value="" placeholder="Enter your command here">
-                    <input id="cmdb" type="button" value="▶️" onclick="command()">
                     <br><br>
-                    <input id="cmds" type="text" placeholder="Enter your command up there, not here">
+                    <input id="cmds4" class="cmds" type="text" ><br>
+                    <input id="cmds3" class="cmds" type="text"><br>
+                    <input id="cmds2" class="cmds" type="text"><br>
+                    <input id="cmds1" class="cmds" type="text"><br>
+                    <input id="cmds" class="cmds" type="text"><br>
+                    <input id="cmdi" type="search" placeholder="Enter your command here">
+                    <input id="cmdb" type="button" value="▶️" onclick="command()">
+                    <input id="cmdb" type="button" value="🔁" onclick="resetcmd()">
             </div>
         </div>
 
 
-        <div class="pages" id="tagpage">
+
+        <div class="pages" id=helppage>
+            <p>Commands</p>
+        </div>
+
+
+
+        <div class="pages"  id="tagpage">
             
             <div id="tagstable">
-                <input type="button">
+                <input type="button" value="community"><br><br>
+            </div>
+
+            <div id="alltags">
+                <input class="tags" type="button" id="Programing" value="#programing">
+                <input class="tags" type="button" id="3D animations" value="#3D animtions">
+                <input class="tags" type="button" id="Discord" value="#discord">
+                <input class="tags" type="button" id="Youtube" value="#youtube">
+                <input class="tags" type="button" id="Youtube" value="#html">
+                <input class="tags" type="button" id="Youtube" value="#java script">
+                <input class="tags" type="button" id="Youtube" value="#css">
+                <input class="tags" type="button" id="Youtube" value="#discord.js">
+                <input class="tags" type="button" id="Youtube" value="#node.js">
+
             </div>
 
         </div>
@@ -60,7 +82,7 @@
         <div class="pages" id="videospage">
 
             <div id="sorry">
-                <h2>Sorry, we don't have any posted videos yet</h2>
+                <h2 style= "color: white;">Sorry, we don't have any posted videos yet</h2>
             </div>
 
         </div>
@@ -68,7 +90,7 @@
         
     
     <div class="pages" id="communitypage">
-        <h2>community hub</h2>
+        <h2 style="color: white;">community hub</h2>
     </div>
     
     </body>

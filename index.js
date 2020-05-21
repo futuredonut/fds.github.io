@@ -14,7 +14,6 @@ function tptp(){
     document.getElementById("tagpage").style.display = "inline";
     document.getElementById("cmdpage").style.display = "none";
     document.getElementById("videospage").style.display = "none";
-    document.getElementById("videospage").style.display = "none";
     document.getElementById("communitypage").style.display = "none";
 }
 
@@ -47,10 +46,33 @@ function tpcp(){
 
 function command(){
     var content = document.getElementById("cmdi").value;
+    document.getElementById("cmds4").value = document.getElementById("cmds3").value;
+    document.getElementById("cmds3").value = document.getElementById("cmds2").value;
+    document.getElementById("cmds2").value = document.getElementById("cmds1").value;
+    document.getElementById("cmds1").value = document.getElementById("cmds").value;
     
-    document.getElementById("cmds").value = content;
+    document.getElementById("cmds").value = content
+
+    document.getElementById("cmdi").value = ''
+
 
 }
-function test(){
-    console.log(`It is working!`)
+
+function resetcmd(){
+    document.getElementById("cmds4").value = ''
+    document.getElementById("cmds3").value = ''
+    document.getElementById("cmds2").value = ''
+    document.getElementById("cmds1").value = ''
+    document.getElementById("cmds").value = ''
+    document.getElementById("cmdi").value = ''
 }
+
+
+
+//colors 
+
+const dark = '#1D1F21'
+const bright = '#C8C9E8'
+
+
+
